@@ -5,6 +5,7 @@ import { Menu, X, Building, LogOut, ShieldCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/contexts/AuthContext";
 import { useToast } from "@/components/ui/use-toast";
+import logo from "./logo.png";
 
 const NavLink = ({ to, children, onClick, isExternal = false }) => {
   if (isExternal) {
@@ -127,7 +128,7 @@ const Navbar = () => {
             className="flex items-center space-x-2"
           >
             <Building size={32} className="text-sky-600" />
-            <img src="logo.png" alt="azeeng logo" />
+            <img src={logo} alt="azeeng logo" />
           </Link>
 
           <div className="hidden md:flex items-center space-x-1">
