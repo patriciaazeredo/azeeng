@@ -5,7 +5,7 @@ import { Menu, X, Building, LogOut, ShieldCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/contexts/AuthContext";
 import { useToast } from "@/components/ui/use-toast";
-import logo from "./logo.png";
+import logo from "../assets/logo.png";
 
 const NavLink = ({ to, children, onClick, isExternal = false }) => {
   if (isExternal) {
