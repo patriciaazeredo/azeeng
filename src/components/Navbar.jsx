@@ -128,7 +128,7 @@ const Navbar = () => {
             className="flex items-center space-x-2"
           >
             <Building size={32} className="text-sky-600" />
-            <img src={logo} alt="azeeng logo" className="w-24 h-auto" />
+            <img src={logo} alt="azeeng logo" className="w-32 h-auto" />
           </Link>
 
           <div className="hidden md:flex items-center space-x-1">
