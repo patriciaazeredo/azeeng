@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import SectionWrapper from "@/components/SectionWrapper";
-import mainImage from "../assets/mainImage.png";
+import mainImage from "../../assets/mainImage.png";
 
 const AboutSection = () => {
   return (
